@@ -1,0 +1,5 @@
+# Winlogbeat config file for org
+
+Name="Beats-Config"
+OrgIndex="Outreach"
+SupVersion="9.1.4"
