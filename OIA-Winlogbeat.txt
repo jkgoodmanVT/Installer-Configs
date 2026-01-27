@@ -1,5 +1,9 @@
 # Winlogbeat config file for org
 
-Name="Beats-Config"
-OrgIndex="Outreach"
-SupVersion="9.1.4"
+# Variables you will need to complete for your winlogbeat installation
+ls_index = vt_outreach											# Change to your index value
+HostName_append = oia.ad.vt.edu									# String to append to the end of your hostnames, OIA uses FQDN
+systemClass = general use										# Another departmental choice value to be included in system tags
+beatVersion = 9.1.4												# The version of Winlogbeat supported by Virginia Tech
+
+
