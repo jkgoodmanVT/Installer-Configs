@@ -8,8 +8,8 @@ beatVersion = 8.17.4												# The version of Winlogbeat supported by Virgini
 
 # Variables that may need to change depending on VT changes to the CLS Project
 winlogbeatPath = C:\Program Files\winlogbeat					# path winlogbeat will be installed to
-execPath =	winlogbeatPath\winlogbeat.exe						# file path to the winlogbeat executable
-configPath = $winlogbeatPath\winlogbeat.yml						# file path to the configuration file
+execPath =	$winlogbeatPath\winlogbeat.exe						# file path to the winlogbeat executable
+configPath = $($winlogbeatPath)\winlogbeat.yml						# file path to the configuration file
 
 # Variables to specify download URLs
 winlogbeatZipURL = https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-$beatVersion-windows-x86_64.zip				# Winlogbeat download URL
