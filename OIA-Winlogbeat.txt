@@ -4,11 +4,11 @@
 ls_index = vt_outreach											# Change to your index value
 HostName_append = oia.ad.vt.edu									# String to append to the end of your hostnames, OIA uses FQDN
 systemClass = general use										# Another departmental choice value to be included in system tags
-beatVersion = 9.1.4												# The version of Winlogbeat supported by Virginia Tech
+beatVersion = 8.17.4												# The version of Winlogbeat supported by Virginia Tech
 
 # Variables that may need to change depending on VT changes to the CLS Project
 winlogbeatPath = C:\Program Files\winlogbeat					# path winlogbeat will be installed to
-execPath =	$winlogbeatPath\winlogbeat.exe						# file path to the winlogbeat executable
+execPath =	winlogbeatPath\winlogbeat.exe						# file path to the winlogbeat executable
 configPath = $winlogbeatPath\winlogbeat.yml						# file path to the configuration file
 
 # Variables to specify download URLs
